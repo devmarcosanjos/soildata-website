@@ -2,7 +2,7 @@
 
 import { Button } from "@/components/ui/button"
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet"
-import { Menu } from "lucide-react"
+import { ArrowRight, Menu } from "lucide-react"
 import Image from "next/image"
 import Link from "next/link"
 import { usePathname } from "next/navigation"
@@ -66,6 +66,7 @@ export default function Navbar() {
                 <Button asChild className="mt-4 bg-amber-700 hover:bg-amber-800">
                   <Link href="https://e4b2-170-0-219-157.ngrok-free.app/" target="_blank">
                     Acessar Repositório
+                    <ArrowRight className="w-4 h-4" />
                   </Link>
                 </Button>
               </nav>
