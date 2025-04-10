@@ -64,7 +64,7 @@ export default function Navbar() {
                   </Link>
                 </div>
                 <Button asChild className="mt-4 bg-amber-700 hover:bg-amber-800">
-                  <Link href="https://soildata.mapbiomas.org/" target="_blank">
+                  <Link href="https://e4b2-170-0-219-157.ngrok-free.app/" target="_blank">
                     Acessar Repositório
                   </Link>
                 </Button>

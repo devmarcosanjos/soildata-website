@@ -1,6 +1,6 @@
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
-import { ArrowUpIcon, ArrowDownIcon, CheckCircle2, Database, Server, Clock, Download } from "lucide-react"
-import StatusMonitor from "@/components/status-monitor"
+import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
+import { Database, Download } from "lucide-react";
+import StatusMonitor from "@/components/status-monitor";
 
 export default function StatisticsPage() {
   return (
@@ -13,7 +13,6 @@ export default function StatisticsPage() {
       </div>
 
       <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-4">
-    
         <Card>
           <CardHeader className="flex flex-row items-center justify-between pb-2">
             <CardTitle className="text-sm font-medium">Total de Conjuntos de Dados</CardTitle>
@@ -33,7 +32,6 @@ export default function StatisticsPage() {
             <div className="text-2xl font-bold">5.006</div>
           </CardContent>
         </Card>
-       
       </div>
 
       <div className="mt-10">
@@ -46,8 +44,8 @@ export default function StatisticsPage() {
             <StatusMonitor />
           </CardContent>
         </Card>
-      </div>
-    </div>
-  )
-}
 
+    </div>
+        </div>
+  );
+}
